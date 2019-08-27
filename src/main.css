@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p::selection {
+    background-color: #8e44ad;
+    color: white;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|lato");
+
+html,
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --light-gray: rgb(235, 235, 235);
+    --bgc: linear-gradient(to bottom, rgb(30, 111, 143), #73338f, rgb(70, 14, 46));
+    --font1: "lato", cursive;
+    --font2: "Rubik", cursive;
+    --font3: "Lobster", cursive;
+
+}
+
+header {
+    background: var(--bgc);
+    background-color: var(--bgc);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header a {
+    font-family: "Rubik",
+        sans-serif;
+    font-size: 0.9em;
+    color: whitesmoke;
+    padding: 12px 15px;
+}
+
+header a:hover {
+    color: white;
+}
+
+header .navbar-collapse a:hover {
+    box-shadow: 0px 1px 3px 0px rgba(206, 204, 204, 0.062);
+    color: #000000b9;
+    border-radius: 1.3em;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background: var(--light-gray);
+    z-index: 1;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.747)
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 15px;
+    font-family: "Rubik"sans-serif;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(92, 37, 141, 0.459);
+    color: whitesmoke !important;
+    border-radius: 0px !important;
+}
+
+.dropdown-content {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+
+header .container .col-md-7 {
+    font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+    font-family: var(--font1);
+}
+
+.primary-btn {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/*----section 1------*/
+.section-1 {
+    padding: 20vmin 0vmin;
+}
+
+.section-1 .col-md-6 .pray img {
+    border-radius: 0.08em;
+    max-width: 80%;
+    opacity: 0.8;
+}
+
+.section-1 .col-md-6 .pray {
+    position: relative;
+}
+
+.section-1 .col-md-6 .panel {
+    background: #ffffff;
+    position: absolute;
+    left: -18vmin;
+    top: 7vmin;
+    margin: 1em;
+    padding: 20vmin 5vmin 20vmin 10vmin;
+    border-radius: 3px;
+    text-align: left;
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
